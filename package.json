@@ -21,5 +21,13 @@
   "bugs": {
     "url": "https://github.com/guilhermepontes/g/issues"
   },
-  "homepage": "https://github.com/guilhermepontes/g"
+  "homepage": "https://github.com/guilhermepontes/g",
+  "devDependencies": {
+    "gulp": "~3.8.7",
+    "karma": "~0.12.22",
+    "karma-jasmine": "~0.1.5",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "gulp-rename": "~1.2.0",
+    "gulp-karma": "0.0.4"
+  }
 }
