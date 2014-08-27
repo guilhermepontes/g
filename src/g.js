@@ -8,7 +8,7 @@
 *
 * Future implementations:
 *       - Handlebars integration
-*       - Make it an Backbone Dependency
+*       - Make it a Backbone Dependency
 *       - Testing
 *
 * @example
