@@ -1,0 +1,25 @@
+{
+  "name": "g",
+  "version": "0.1.0",
+  "description": "g is tiny lib made to render response requests :)",
+  "main": "g.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermepontes/g"
+  },
+  "keywords": [
+    "g",
+    "gRender",
+    "__",
+    "doubleUnderscore"
+  ],
+  "author": "Guilherme Pontes",
+  "license": "Apache v2",
+  "bugs": {
+    "url": "https://github.com/guilhermepontes/g/issues"
+  },
+  "homepage": "https://github.com/guilhermepontes/g"
+}
