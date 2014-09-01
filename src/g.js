@@ -28,6 +28,10 @@
       throw new Error("g(): You need jQuery, sorry man.");
     }
 
+    if("undefined" === typeof _) {
+      throw new Error("g(): You need Underscore, sorry man.");
+    }
+
     var __private, app;
 
     /**
