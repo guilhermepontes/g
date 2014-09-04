@@ -41,7 +41,7 @@ context('[g Scope Tests]', function() {
       _g = null;
     });
 
-    it('should g.using be public', function(){
+    it('should g.using be "public"', function(){
       expect(_g.using).toBeDefined();
     });
 
@@ -49,7 +49,7 @@ context('[g Scope Tests]', function() {
       expect(_g.templating).toBeDefined();
     });
 
-    it('should g.how() be public', function(){
+    it('should g.how be public', function(){
       expect(_g.how).toBeDefined();
     });
 
@@ -80,6 +80,41 @@ context('[g Scope Tests]', function() {
     it('should g.now() be public', function(){
       expect(_g.now).toBeDefined();
     });
+  });
 
+  describe('should be a "private" method', function(){
+    var _g;
+
+    beforeEach(function(){
+     _g = g({ url: "" });
+    });
+
+    afterEach(function(){
+      _g = null;
+    });
+
+    it('should g.config be private', function(){
+      expect(_g.config).not.toBeDefined();
+    });
+
+    it('should g.finalTemplate be private', function(){
+      expect(_g.finalTemplate).not.toBeDefined();
+    });
+
+    it('should g.request() be private', function(){
+      expect(_g.request).not.toBeDefined();
+    });
+
+    it('should g.render() be private', function(){
+      expect(_g.render).not.toBeDefined();
+    });
+
+    it('should g.make() be private', function(){
+      expect(_g.make).not.toBeDefined();
+    });
+
+    it('should g.add() be private', function(){
+      expect(_g.add).not.toBeDefined();
+    });
   });
 });
