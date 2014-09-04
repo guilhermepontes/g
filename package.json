@@ -4,6 +4,7 @@
   "description": "g is tiny lib made to render response requests :)",
   "main": "g.js",
   "scripts": {
+    "bower": "bower install",
     "test": "gulp test"
   },
   "repository": {
@@ -24,6 +25,7 @@
   "homepage": "https://github.com/guilhermepontes/g",
   "devDependencies": {
     "gulp": "~3.8.7",
+    "bower": "~1.3.9",
     "karma": "~0.12.22",
     "karma-jasmine": "~0.1.5",
     "karma-phantomjs-launcher": "~0.1.4",
