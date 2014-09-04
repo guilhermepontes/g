@@ -132,12 +132,6 @@
     **/
     app = {
       /**
-       * Version of the g library
-       * @attribute version
-       * @type String
-      **/
-      version: "0.1.0",
-      /**
        * Object that will store the template that will be handled and
        * the target element that will render the final template
        *
@@ -368,5 +362,13 @@
     return app;
   };
 
+  /**
+   * g version
+  **/
+  g.version = "0.1.0";
+
+  /**
+   * setting gRender and __ as optional names
+  **/
   window.g = window.gRender = window.__ = window.g || g;
 }());
