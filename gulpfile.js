@@ -6,9 +6,9 @@ var rename = require('gulp-rename');
 var GulpApp = {
   config: {
     testFiles: [
+      'src/g.js',
       'bower_components/jquery/dist/jquery.min.js',
       'bower_components/underscore/underscore-min.js',
-      'src/g.js',
       'specs/*.js'
     ],
 
