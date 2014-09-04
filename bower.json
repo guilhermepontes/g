@@ -1,0 +1,9 @@
+{
+  "name": "g",
+  "version": "0.1.0",
+  "main": "src/g.js",
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "underscore": "~1.7.0"
+  }
+}
