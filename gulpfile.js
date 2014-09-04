@@ -1,13 +1,13 @@
-var gulp   = require('gulp'),
-var karma  = require('gulp-karma'),
-var uglify = require('gulp-uglify'),
+var gulp   = require('gulp');
+var karma  = require('gulp-karma');
+var uglify = require('gulp-uglify');
 var rename = require('gulp-rename');
 
 var GulpApp = {
   config: {
     testFiles: [
       'src/g.js',
-      'spec/*.js'
+      'specs/*.js'
     ],
 
     action: "run"
