@@ -132,6 +132,12 @@
     **/
     app = {
       /**
+       * Version of the g library
+       * @attribute version
+       * @type String
+      **/
+      version: "0.1.0",
+      /**
        * Object that will store the template that will be handled and
        * the target element that will render the final template
        *
