@@ -10,9 +10,7 @@ var GulpApp = {
       'bower_components/jquery/dist/jquery.min.js',
       'bower_components/underscore/underscore-min.js',
       'specs/*.js'
-    ],
-
-    action: "run"
+    ]
   },
 
   test: function() {
@@ -20,7 +18,7 @@ var GulpApp = {
       .pipe(
         karma({
           configFile: 'karma.conf.js',
-          action: GulpApp.config.action
+          action: GulpApp.config.action || "run"
         })
       );
   },
