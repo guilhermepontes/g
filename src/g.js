@@ -6,10 +6,6 @@
 * g is an easy way to render templates from an ajax request!
 * Working example: http://jsfiddle.net/yuL2dugs/
 *
-* Future implementations:
-*       - Handlebars integration
-*       - Make it a Backbone Dependency
-*       - Testing
 *
 * @example
 *    g({ url: url }).using("#template").after("ul").now();
